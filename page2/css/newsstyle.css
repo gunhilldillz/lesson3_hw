@@ -1,0 +1,170 @@
+#wrapper {
+
+	margin: 0 auto;
+	width: 900px;
+}
+
+#col1{
+
+	margin: 10px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 3px;
+	padding: 10px;
+	float: left;
+	width: 150px;
+	display: inline-block;
+
+}
+
+#col2{
+
+	margin: 10px;
+	border-style: dashed;
+	border-color: black;
+	background-color: grey;
+	border-width: 3px;
+	padding: 10px;
+	float: right;
+	width: 150px;
+	display: inline-block;
+
+}
+
+#img {
+
+	padding: 20px;
+}
+
+#bigtext {
+
+	text-align: center;
+	font-size: 80px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#headlinetxt {
+
+	text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+
+#subheadlinetxt {
+
+	text-align: center;
+	font-size: 50px;
+	font-weight: bold;
+	margin-top: -40px;
+}
+
+#navtxt {
+
+	text-align: center;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#row1{
+
+	margin: 10px;
+	border-bottom: .5px black dashed;
+	border-width: 3px;
+	padding: 10px 10px 10px 15px;
+	float: left;
+	width: 250px;
+	height: 480px;
+	display: inline-block;
+	
+	overflow: hidden;
+
+}
+
+#row1 img {
+
+	padding: 0px 15px 10px 0px;
+	float: left;
+	width: 100px;
+}
+
+#row1 a {
+
+	padding-top: 50px;
+	float: left;
+	width: 100px;
+}
+
+#row2{
+
+	margin: 10px;
+	border-style: dashed;
+	border-color: black;
+	background-color: rgb(173, 72, 124);
+	border-width: 3px;
+	padding: 10px;
+	float: left;
+	width: 150px;
+	height: 150px;
+	display: inline-block;
+	
+	overflow: hidden;
+
+}
+
+#frame {
+
+	position: relative;
+	border: 2px blue dashed;
+	margin: 30px;
+	width: 500px;
+	height: 500px;
+	padding: 10px 10px 10px 40px;
+
+}
+
+#frame img {
+
+	width: 50px;
+	position: relative;
+	margin-left: -30px;
+}
+
+#row3 {
+
+	margin: 10px;
+	border-style: dashed;
+	border-color: black;
+	border-color: rgb(182, 182, 182);
+	background-color: rgb(219, 219, 219);
+	border-width: 3px;
+	padding: 10px;
+	float: left;
+	width: 250px;
+	height: 30px;
+	display: inline;
+}
+
+#row3 div {
+
+	margin-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+
+#row3:hover {
+
+	background-color: rgb(143, 189, 255);
+}
+
+#social {
+
+	position: fixed;
+	top: 20px;
+	left: 20px;
+	width: 64px;
+	padding:5px;
+	border: 1px rgb(182, 182, 182) dashed;
+	border-radius: 5px;
+}
