@@ -33,7 +33,7 @@
 
 #img {
 
-	padding: 20px;
+	padding: 15px;
 }
 
 #bigtext {
@@ -167,4 +167,9 @@
 	padding:5px;
 	border: 1px rgb(182, 182, 182) dashed;
 	border-radius: 5px;
+}
+
+p {
+
+	font-size: 15px;
 }
